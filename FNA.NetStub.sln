@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNA.NetStub", "FNA.NetStub.csproj", "{F5328B35-F276-4157-9B69-E06D527C689B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNA", "..\FNA\FNA.csproj", "{35253CE1-C864-4CD3-8249-4D1319748E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x86.ActiveCfg = Debug|x86
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x86.Build.0 = Debug|x86
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x86.ActiveCfg = Release|x86
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x86.Build.0 = Release|x86
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Debug|x86.ActiveCfg = Debug|x86
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Debug|x86.Build.0 = Debug|x86
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Release|x86.ActiveCfg = Release|x86
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Release|x86.Build.0 = Release|x86
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x64.ActiveCfg = Debug|x64
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x64.Build.0 = Debug|x64
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x64.ActiveCfg = Release|x64
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x64.Build.0 = Release|x64
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Debug|x64.ActiveCfg = Debug|x64
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Debug|x64.Build.0 = Debug|x64
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Release|x64.ActiveCfg = Release|x64
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Release|x64.Build.0 = Release|x64
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{F5328B35-F276-4157-9B69-E06D527C689B}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+EndGlobal
