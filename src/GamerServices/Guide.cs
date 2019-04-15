@@ -199,7 +199,7 @@ namespace Microsoft.Xna.Framework.GamerServices
 		{
 		}
 
-		public static void ShowMarketPlace(PlayerIndex player)
+		public static void ShowMarketplace(PlayerIndex player)
 		{
 		}
 
