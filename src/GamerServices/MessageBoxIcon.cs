@@ -11,9 +11,9 @@ namespace Microsoft.Xna.Framework.GamerServices
 {
 	public enum MessageBoxIcon
 	{
-		Warning,
+		None,
 		Error,
-		Alert,
-		None
+		Warning,
+		Alert
 	}
 }
