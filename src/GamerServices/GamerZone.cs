@@ -11,10 +11,10 @@ namespace Microsoft.Xna.Framework.GamerServices
 {
 	public enum GamerZone
 	{
-		Family,
-		Pro,
+		Unknown,
 		Recreation,
-		Underground,
-		Unknown
+		Pro,
+		Family,
+		Underground
 	}
 }

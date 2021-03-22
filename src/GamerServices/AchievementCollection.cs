@@ -39,10 +39,6 @@ namespace Microsoft.Xna.Framework.GamerServices
 			{
 				return collection[index];
 			}
-			set
-			{
-				// FIXME: This should not be here, but IList...?! -flibit
-			}
 		}
 
 		public Achievement this[string achievementKey]
@@ -97,6 +93,18 @@ namespace Microsoft.Xna.Framework.GamerServices
 		#endregion
 
 		#region IList Implementation
+
+		Achievement IList<Achievement>.this[int index]
+		{
+			get
+			{
+				return collection[index];
+			}
+			set
+			{
+				// FIXME: This should not be here, but IList...?! -flibit
+			}
+		}
 
 		int IList<Achievement>.IndexOf(Achievement item)
 		{

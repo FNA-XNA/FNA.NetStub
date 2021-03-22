@@ -11,14 +11,14 @@ namespace Microsoft.Xna.Framework.GamerServices
 {
 	public enum NotificationPosition
 	{
-		BottomCenter,
-		BottomLeft,
-		BottomRight,
-		Center,
-		CenterLeft,
-		CenterRight,
-		TopCenter,
 		TopLeft,
-		TopRight
+		TopCenter,
+		TopRight,
+		CenterLeft,
+		Center,
+		CenterRight,
+		BottomLeft,
+		BottomCenter,
+		BottomRight
 	}
 }
