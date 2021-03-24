@@ -31,6 +31,10 @@ namespace Microsoft.Xna.Framework.Net
 			{
 				return (int) BaseStream.Position;
 			}
+			set
+			{
+				BaseStream.Position = value;
+			}
 		}
 
 		#endregion
