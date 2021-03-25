@@ -9,11 +9,9 @@
 
 namespace Microsoft.Xna.Framework.GamerServices
 {
-	public enum MessageBoxIcon
+	public enum AvatarBodyType
 	{
-		None,
-		Error,
-		Warning,
-		Alert
+		Female,
+		Male
 	}
 }

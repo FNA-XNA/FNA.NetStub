@@ -11,8 +11,8 @@ namespace Microsoft.Xna.Framework.GamerServices
 {
 	public enum GamerPrivilegeSetting
 	{
-		Everyone,
+		Blocked,
 		FriendsOnly,
-		Blocked
+		Everyone
 	}
 }

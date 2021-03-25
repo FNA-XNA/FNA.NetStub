@@ -55,6 +55,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="src\" />
+    <Folder Include="src\Avatar\" />
     <Folder Include="src\GamerServices\" />
     <Folder Include="src\Net\" />
     <Folder Include="src\Properties\" />
@@ -69,6 +70,18 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\Avatar\AvatarRenderer.cs" />
+    <Compile Include="src\Avatar\AvatarDescription.cs" />
+    <Compile Include="src\Avatar\AvatarAnimationPreset.cs" />
+    <Compile Include="src\Avatar\AvatarAnimation.cs" />
+    <Compile Include="src\Avatar\IAvatarAnimation.cs" />
+    <Compile Include="src\Avatar\AvatarBone.cs" />
+    <Compile Include="src\Avatar\AvatarExpression.cs" />
+    <Compile Include="src\Avatar\AvatarEyebrow.cs" />
+    <Compile Include="src\Avatar\AvatarEye.cs" />
+    <Compile Include="src\Avatar\AvatarMouth.cs" />
+    <Compile Include="src\Avatar\AvatarRenderState.cs" />
+    <Compile Include="src\Avatar\AvatarBodyType.cs" />
     <Compile Include="src\GamerServices\Achievement.cs" />
     <Compile Include="src\GamerServices\AchievementCollection.cs" />
     <Compile Include="src\GamerServices\FriendGamer.cs" />

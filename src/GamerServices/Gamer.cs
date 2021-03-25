@@ -129,6 +129,12 @@ namespace Microsoft.Xna.Framework.GamerServices
 
 		#region Public Methods
 
+		public override string ToString()
+		{
+			// Explicit ToString override - can the compiler even call this directly?
+			return DisplayName;
+		}
+
 		public GamerProfile GetProfile()
 		{
 			IAsyncResult result = BeginGetProfile(null, null);

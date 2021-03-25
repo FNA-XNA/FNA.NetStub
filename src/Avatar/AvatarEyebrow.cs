@@ -9,11 +9,12 @@
 
 namespace Microsoft.Xna.Framework.GamerServices
 {
-	public enum MessageBoxIcon
+	public enum AvatarEyebrow
 	{
-		None,
-		Error,
-		Warning,
-		Alert
+		Neutral,
+		Sad,
+		Angry,
+		Confused,
+		Raised
 	}
 }

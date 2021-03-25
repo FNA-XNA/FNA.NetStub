@@ -9,11 +9,10 @@
 
 namespace Microsoft.Xna.Framework.GamerServices
 {
-	public enum MessageBoxIcon
+	public enum AvatarRendererState
 	{
-		None,
-		Error,
-		Warning,
-		Alert
+		Loading,
+		Ready,
+		Unavailable
 	}
 }

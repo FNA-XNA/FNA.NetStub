@@ -8,6 +8,7 @@
 #endregion
 
 #region Using Statements
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -85,6 +86,49 @@ namespace Microsoft.Xna.Framework.GamerServices
 
 		#endregion
 
+		#region Async Object Type
+
+		internal class GuideAction : IAsyncResult
+		{
+			public object AsyncState
+			{
+				get;
+				private set;
+			}
+
+			public bool CompletedSynchronously
+			{
+				get
+				{
+					return false;
+				}
+			}
+
+			public bool IsCompleted
+			{
+				get;
+				internal set;
+			}
+
+			public WaitHandle AsyncWaitHandle
+			{
+				get;
+				private set;
+			}
+
+			public readonly AsyncCallback Callback;
+
+			public GuideAction(object state, AsyncCallback callback)
+			{
+				AsyncState = state;
+				Callback = callback;
+				IsCompleted = false;
+				AsyncWaitHandle = new ManualResetEvent(true);
+			}
+		}
+
+		#endregion
+
 		#region Static Constructor
 
 		static Guide()
@@ -125,12 +169,18 @@ namespace Microsoft.Xna.Framework.GamerServices
 			object state,
 			bool usePasswordMode
 		) {
-			throw new NotSupportedException();
+			// FIXME: Register text input handler and obtain text? -ade
+			TextInputEXT.StartTextInput();
+			return new GuideAction(state, callback) {
+				IsCompleted = true
+			};
 		}
 
 		public static string EndShowKeyboardInput(IAsyncResult result)
 		{
-			throw new NotSupportedException();
+			// FIXME: Unregister text input handler and return obtained text? -ade
+			TextInputEXT.StopTextInput();
+			return "";
 		}
 
 		public static IAsyncResult BeginShowMessageBox(
